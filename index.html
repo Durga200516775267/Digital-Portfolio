@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+   <!-- <link rel="stylesheet" href="style.css">-->
+</head>
+<body class="portfolio">
+  <section class="home">
+    <div class="basic">
+      <nav class="navbar">
+        <ul>
+          <li class="details"> <a href="#biodata" style="color:black">HOME </a></li>
+          <li class="details"> <a href="#education" style="color:black">EDUCATION</a></li>
+          <li class="details"> <a href="#box" style="color:black">SKILLS </a></li>
+          <li class="details"> <a href="#v&m" style="color:black">VISION AND MISSION </a></li>
+          <li class="details"><a href="#resume" style="color:black">RESUME</a></li>
+          <li class="details"><a href="#contact" style="color:black">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section id="biodata">
+    <div class="bio">
+  <img class="photo" src="Durga photo.jpg">
+  <h1 class="n">Hello, I'm R Durga! 👋</h1>
+  <p class="abo">
+    I’m a passionate and dedicated second-year B.Sc. Computer Science student at<br>
+     Government Arts and Science College for Women, 
+    Coimbatore. I love exploring the world of technology and constantly<br>
+     learning new skills to enhance my knowledge in programming,
+     web development, and software solutions.<br>
+    
+    I believe in blending creativity with logic to build efficient and innovative<br>
+     solutions.
+     Whether it's coding a new project or diving into
+      the latest tech trends, I'm always up for a challenge!</p>
+</div>
+<hr>
+</section>
+
+
+<section id="education">
+  <div class="edu">
+    <h1>EDUCATION</h1>
+    <h3>School Education</h3>
+    <h4>Government higher secondary school , coimbatore</h4>
+    <h3>Higher Education</h3>
+    <h4>Government arts and science college for women , coimbatore</h4>
+  </div>
+  <hr>
+</section>
+<section id="box" >
+  <h1 class="head1">SKILLS</h1>
+<fram>
+  <table>
+    <tr>
+      <td>☕︎</td> 
+    </tr>
+    <tr>
+      <td>JAVA</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+    <td>
+      HTML
+    </td>
+    </tr>
+    <tr>
+      <td>
+        HyperText Markup Language
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td>
+        CSS
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Cascading Style Sheet
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td>
+        ｡🇯‌🇸‌
+      </td>
+    </tr>
+    <tr>
+      <td>
+      JAVA SCRIPT
+    </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td>
+        C++
+      </td>
+    </tr>
+    <tr>
+      <td>
+      C++
+    </td>
+    </tr>
+  </table>
+</fram>
+<p class="para">I possess a strong foundation in programming and web development, with proficiency in Java, JavaScript, HTML, CSS, and C++. My skills enable me to build dynamic and responsive web applications, leveraging JavaScript for interactivity and HTML/CSS for structured and visually appealing layouts. I have a solid understanding of Object-Oriented Programming (OOP) concepts through Java and C++, allowing me to develop efficient, modular, and maintainable code. Additionally, I am skilled in problem-solving and logical thinking, which help me tackle complex coding challenges effectively. My ability to learn new technologies quickly, collaborate within a team, and communicate technical concepts clearly further enhances my potential as a developer. I am passionate about applying my skills to practical projects and continuously improving my knowledge in the field of computer science.</p>
+</section>
+<hr>
+<section id="v&m">
+<div class="vision">
+  <h1>
+    VISION
+  </h1>
+  <p>As a passionate and dedicated Computer Science student, I strive to create innovative and efficient software solutions. With strong skills in Java, JavaScript, HTML, CSS, C, and C++, I build responsive web applications and robust software. My goal is to leverage my technical knowledge to develop impactful projects and continuously grow as a programmer.</p>
+  <hr>
+</div>
+<div class="mission">
+  <h1>MISSION</h1>
+  <p>My mission is to harness the power of coding to develop reliable and user-friendly software solutions. With proficiency in Java, JavaScript, HTML and CSS, I am committed to building applications that blend functionality and aesthetics. I aim to continuously learn and evolve as a developer while delivering impactful projects that solve real-world challenges.</p>
+</div>
+</section>
+<hr>
+<section id="resume">
+    
+  <div class="section-content">
+      <center>
+      <h2>Resume</h2>
+      <a href="file1.pdf"_blank" class="download-button">Download Resume</a>
+      </center>
+  </div>
+  
+</section>
+
+
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+              window.scrollTo({
+                  top: targetElement.offsetTop,
+                  behavior: 'smooth'
+              });
+          }
+      });
+  });
+</script>
+<section id="contact">
+<div class="cont">
+  <h2>
+    CONTACT ME
+  </h2>
+  <a class="det" href="durgarajamurugan@gmail.com">G-mail</a>
+  <a class="det" href="https://www.linkedin.com/in/durga-rajamurugan-0766a033b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BcdDOQURZS5WNciAXD3qSlw%3D%3D">linkedin</a>
+</div>
+<hr>
+<footer>
+  <p>&copy; 2025 R DURGA</p>
+</footer>
+</section>
+</body>
+</html>
+<style>
+.portfolio
+{
+   background-color: rgb(230, 217, 217);
+}
+.photo
+{
+    width: 190px;
+    height: 190px;
+    padding-left: 115px;
+    border-radius: 54% 46% 52% 48% / 31% 70% 30% 69%   ;
+    padding-top: 2%;
+    display: inline;
+    float:left;
+    margin-top: 5px;
+    background-color: rgb(123, 88, 88);
+    margin: 2%;
+}
+.details
+{
+    display: inline-block;
+    margin-left: 25px; 
+    padding-left: 110px;
+    
+}
+li:hover{
+    color:white;
+    cursor:pointer;
+    font-weight:bolder;
+    text-decoration:underline;
+}
+.n{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 35px;
+
+}
+.basic
+{
+    padding:1px;
+    background-color: rgb(220, 160, 160);
+    8
+}
+.abo
+{
+    text-align: left;
+   padding-left: 30%;
+   margin-bottom: 90px;
+   
+}
+.home
+{
+    padding:20px
+}
+.about
+{
+    padding-left: 20px;
+    
+}
+table
+{
+    border-color:rgb(220, 160, 160);
+    border-width: 4px;
+    padding-top:10px;
+    padding-bottom: 50px;
+    padding-left:70px;
+    border-style:ridge;
+    margin:3px;
+    display:inline;
+    padding-top:10px;
+    padding-right: 70px;
+}
+
+#box
+{
+    padding-left:20px;
+    padding-bottom:5px;
+}
+.vision,.mission
+{
+    padding-left: 20px;
+}
+.det{
+   display: block;
+}
+.cont
+{
+    text-align: right;
+    padding: 20px;
+}
+.para
+{
+    padding-top:50px;
+}
+
+    .navbar {
+        overflow: hidden;
+        background-color: rgb(220, 160, 160);
+        position: fixed; 
+        top: 0; 
+        width: 100%; 
+    }
+</style>
